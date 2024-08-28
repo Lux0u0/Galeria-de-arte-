@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Arte Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Galería de Arte Online</h1>
+    </header>
+    <main>
+        <section class="gallery">
+            <!-- Aquí se mostrarán los dibujos -->
+        </section>
+    </main>
+    <footer>
+        <p>Sube tu dibujo y compártelo con tus compañeros.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+2. Estilo de la Página: CSS
+Para agregar los colores pastel y la estética tranquila, necesitas un archivo CSS.
+
+Código CSS (styles.css):
+
+css
+Copiar código
+body {
+    background-color: #f0e6f6; /* Fondo pastel */
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c5a3ff; /* Color pastel para el header */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery img {
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #c5a3ff; /* Color pastel para el footer */
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
